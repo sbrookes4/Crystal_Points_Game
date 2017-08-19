@@ -1,0 +1,298 @@
+body{
+
+	background-color:#140C71;
+	width:1000px;
+	display:block;
+	margin:auto;
+}
+
+#crystals{
+
+	width:1200px;
+	border:white 1px solid;
+	border-radius:10px;
+	float:left;
+
+}
+
+#crystalsBottom{
+
+	width:1200px;
+	margin-top:40px;
+	float:left;
+	border:white 1px solid;
+	border-radius:10px;
+}
+
+/*_________________________________________________________*/
+
+#crysTitle{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:1200px;
+	height:80px;
+	margin-top:20px;
+	float:left;
+	color:#7C72EE;
+	font-size:60px;
+	font-weight:900;
+	text-align:center;
+}
+
+/*_________________________________________________________*/
+
+#conatiner1{
+
+	width:1200px;
+}
+
+#advert{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:277px;
+	height:360px;
+	margin-top:20px;
+	float:left;
+	color:#7C72EE;
+	text-align:center;
+	font-weight:900;
+	font-size:22px;
+}
+
+
+#crysInstBox{
+
+	margin-left:20px;
+	border:white 1px solid;
+	border-radius:10px;
+	width:600px;
+	height:360px;
+	margin-top:20px;
+	float:left;
+}
+
+#instructionsCenter{
+
+	margin-top:20px;
+	text-align:center;
+	color:#7C72EE;
+	font-size:24px;
+	font-weight:900;
+}
+
+#crysBlurb{
+
+	float:left;
+	color:#7C72EE;
+	margin-top:10px;
+	font-size:20px;
+	font-weight:900;
+	text-align:center;
+}
+
+#advert2{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:277px;
+	height:360px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+	color:#7C72EE;
+	text-align:center;
+	font-weight:900;
+	font-size:22px;
+
+}
+
+
+#conatiner2{
+
+	width:1200px;
+}
+/* ______________________________________________*/
+#gameBox{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:1200px;
+	height:800px;
+	margin-top:20px;
+	float:left;
+}
+
+#crystalsNumberBox{
+
+	border:white 1px solid;
+	border-radius:10px;
+	width:426px;
+	height:400px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+
+#yourScoreBox{
+
+	border:white 1px solid;
+	border-radius:10px;
+	width:426px;
+	height:400px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+
+}
+/* ______________________________________________*/
+#advert3{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:120px;
+	height:400px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+	color:#7C72EE;
+	text-align:center;
+	font-weight:900;
+	font-size:12px;
+}
+
+#advert4{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:120px;
+	height:334px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+	color:#7C72EE;
+	text-align:center;
+	font-weight:900;
+	font-size:12px;
+}
+
+
+/* ______________________________________________*/
+#fourCrystalsBox{
+
+	border:white 1px solid;
+	border-radius:10px;
+	width:876px;
+	height:200px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+
+}
+
+#CRYSTALZblue{
+
+	margin-left:-40px;
+	width:310px;
+	float:left;
+}
+
+#CRYSTALZgreen{
+	margin-left:-40px;
+	width:190px;
+	float:left;
+}
+
+
+#CRYSTALZpurple{
+	margin-left:40px;
+	width:190px;
+	float:left;
+}
+
+
+#CRYSTALZtitanium{
+	margin-left:20px;
+	width:160px;
+	float:left;
+}
+
+
+
+/* ______________________________________________*/
+
+
+
+
+
+
+#crystalsTitle{
+
+	margin-top:20px;
+	text-align:center;
+	color:#7C72EE;
+	font-size:46px;
+	font-weight:900;
+}
+
+
+/* ______________________________________________*/
+
+
+
+#winLossBox{
+
+	border:white 1px solid;
+	border-radius:10px;
+	width:876px;
+	height:114px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+
+}
+
+#crystalsTitle2{
+
+	margin-top:20px;
+	margin-left:100px;
+	color:#7C72EE;
+	font-size:46px;
+	font-weight:900;
+	float:left;
+}
+
+#crystalsTitle3{
+
+	margin-top:20px;
+	margin-right:200px;
+	color:#7C72EE;
+	font-size:46px;
+	font-weight:900;
+	float:right;
+}
+
+
+
+#advert4a{
+
+	
+	border:white 1px solid;
+	border-radius:10px;
+	width:120px;
+	height:334px;
+	margin-top:-200px;
+	margin-left:20px;
+	float:left;
+	color:#7C72EE;
+	text-align:center;
+	font-weight:900;
+	font-size:12px;
+}
