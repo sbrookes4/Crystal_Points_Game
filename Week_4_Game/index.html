@@ -88,12 +88,14 @@
 			<div id="crystalsNumberBox">
 
 				<p id="crystalsTitle">Number to Match</p>
+				<p id="compNum">--</p>
 
 			</div>
 
 			<div id="yourScoreBox">
 
 				<p id="crystalsTitle">Your Current Number</p>
+				<p id="PlyzNum">--</p>
 
 			</div>
 
@@ -112,13 +114,13 @@
 
 			<div id="fourCrystalsBox">
 
-				<img id="CRYSTALZblue"  src="assets/images/BLUE.png" >
+				<img id="CRYSTALZblue"  src="assets/images/BLUE.png" onclick="iconB();">
 
-				<img id="CRYSTALZgreen"  src="assets/images/GREEN.png" >
+				<img id="CRYSTALZgreen"  src="assets/images/GREEN.png" onclick="iconG();">
 				
-				<img id="CRYSTALZpurple"  src="assets/images/PURPLE.png" >
+				<img id="CRYSTALZpurple"  src="assets/images/PURPLE.png" onclick="iconP();">
 
-				<img id="CRYSTALZtitanium"  src="assets/images/TITANIUM.png" >												
+				<img id="CRYSTALZtitanium"  src="assets/images/TITANIUM.png" onclick="iconT();">												
 
 			</div>
 
@@ -126,9 +128,26 @@
 			<div id="winLossBox">
 
 
-				<p id="crystalsTitle2">Wins:</p>
+				<div id="winCont">
 
-				<p id="crystalsTitle3">Losses:</p>
+					<p id="crystalsTitle2">Wins: <span id="winCount">--</span></p>
+
+				</div>
+
+
+				<div id="buttonCont">
+					
+					<img id="buttonSTL" src="assets/images/starty.png" onclick="startButtonAlt();">
+
+				</div>
+
+
+
+				<div id="lossCont">
+
+					<p id="crystalsTitle3">Losses: <span id="loseCount">--</span></p>
+
+				</div>
 
 			</div>
 

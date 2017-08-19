@@ -139,6 +139,26 @@ body{
 	float:left;
 }
 
+#compNum{
+
+	margin-top:30px;
+	text-align:center;
+	color:#7C72EE;
+	font-size:200px;
+	font-weight:900;
+
+}
+
+#PlyzNum{
+
+	margin-top:-50px;
+	text-align:center;
+	color:#7C72EE;
+	font-size:200px;
+	font-weight:900;
+
+}
+
 #yourScoreBox{
 
 	border:white 1px solid;
@@ -259,24 +279,57 @@ body{
 
 }
 
+#winCont{
+
+
+	width:200px;
+	height:90px;
+	margin-left:40px;
+	margin-top:8px;
+	float:left;
+}
+
+#buttonCont{
+
+
+	margin-left:150px;
+	margin-top:5px;
+	float:left;
+}
+
+#buttonSTL{
+
+	width:102px;
+}
+
+#lossCont{
+
+
+	width:230px;
+	height:90px;
+	margin-left:136px;
+    float:left;
+    margin-top:8px;
+}
+
 #crystalsTitle2{
 
 	margin-top:20px;
-	margin-left:100px;
 	color:#7C72EE;
 	font-size:46px;
 	font-weight:900;
 	float:left;
+	text-align:center;
 }
 
 #crystalsTitle3{
 
 	margin-top:20px;
-	margin-right:200px;
 	color:#7C72EE;
 	font-size:46px;
 	font-weight:900;
-	float:right;
+	float:left;
+	text-align:center;
 }
 
 
