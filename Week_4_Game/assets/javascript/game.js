@@ -1,8 +1,3 @@
-//alert("Hello, welcome to Crystal Collector");
-
-
-
-
 
 
 		var numbToMatch;
@@ -11,10 +6,9 @@
 		var greenRock;
 		var purpleRock;
 		var metalRock;
-		var playesrunningtotal = "";
-		var winz;
+		var winz = 0;
 		var lz;
-		var sum = [];
+		var newSum = 0;
 
 
 //this is to make the start button change to on
@@ -22,55 +16,117 @@
 
 	var image = document.getElementById("buttonSTL");
 	image.src = "assets/images/starty2.png";
-	numbToMatch = Math.floor(Math.random() * 50 + 1 );
+	numbToMatch = Math.floor(Math.random() * (50 - 20 + 1)) + 20;
 	document.getElementById("compNum").innerHTML = numbToMatch;
 
 //crystals are assigned random values
-	blueRock = Math.floor(Math.random() * 10 + 1 );
-	greenRock = Math.floor(Math.random() * 10 + 1 );
-	purpleRock = Math.floor(Math.random() * 10 + 1 );
-	metalRock = Math.floor(Math.random() * 10 + 1 );
+	blueRock = Math.floor(Math.random() * 10) + 1 ;
+	greenRock = Math.floor(Math.random() * 10) + 1 ;
+	purpleRock = Math.floor(Math.random() * 10) + 1 ;
+	metalRock = Math.floor(Math.random() * 10) + 1 ;
 	
 	//console.log(blueRock);
 	//console.log(greenRock);
 	//console.log(purpleRock);
 	//console.log(metalRock);
 	}
+
+
+
 //when icon is clicked, pull value and add to sum function
 //update value with each icon click
 		function iconB(){
 
-		sum.push(blueRock);
+		newSum = newSum + blueRock;
+		console.log(newSum, blueRock);
+			document.getElementById("PlyzNum").innerHTML = newSum;
+			xyz();
 
-
-		//document.getElementById("PlyzNum").innerHTML = ;	
 	}
 
 		function iconG(){
 
-		sum.push(greenRock);	
+		newSum = newSum + greenRock;
+		console.log(newSum);	
+				document.getElementById("PlyzNum").innerHTML = newSum;
+				xyz();
+
 	}
 
 		function iconT(){
 
-		sum.push(purpleRock);	
+		newSum = newSum + purpleRock;
+		console.log(newSum);
+			document.getElementById("PlyzNum").innerHTML = newSum;
+			xyz();		
 	}
 
 		function iconP(){
 
-		sum.push(metalRock);	
+		newSum = newSum + metalRock;
+		console.log(newSum);
+			document.getElementById("PlyzNum").innerHTML = newSum;
+			xyz();
 	}	
-
-console.log(sum);
-
-
-
+	
 //do conditional
 
+function xyz(){
 
-//feed into win and losses
+	var i = 1;
+
+ 	if( newSum === numbToMatch ){
+
+
+ 		document.getElementById("winCount").innerHTML = i++;
+
+ 		//you win pop up START///////////////////////////////////////////////////////////
+
+				// function that activates pop up goes here; linked with resetting page
+
+ 		//you win pop up END///////////////////////////////////////////////////////////
+ 		
+
+
+ 		//reset TO INSERT HERE
+ 		console.log(newSum);
+
+
+
+ 	}
+
+ 	else if(newSum > numbToMatch){
+
+  		document.getElementById("loseCount").innerHTML = i++;
+  		// you lose START//////////////////////////////////////////////////////
+ 
+				// function that activates pop up goes here; linked with resetting page
+
+		// you lose END//////////////////////////////////////////////////////
+
+
+   		console.log(newSum);	
+ 	}
+
+
+
 
 //reset
 
 
-	
+}
+
+			//works with button on page but doesn't work when put into function xyz(){}
+ 		function POPOPENWin(){
+
+
+		document.getElementById("modalWin").style.display = "block";
+
+		}
+
+		function POPCLOSEWin(){
+
+
+		document.getElementById("modalWin").style.display = "none";
+
+		}

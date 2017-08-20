@@ -9,7 +9,7 @@ body{
 #crystals{
 
 	width:1200px;
-	border:white 1px solid;
+	border:white 3px solid;
 	border-radius:10px;
 	float:left;
 
@@ -20,7 +20,7 @@ body{
 	width:1200px;
 	margin-top:40px;
 	float:left;
-	border:white 1px solid;
+	border:white 3px solid;
 	border-radius:10px;
 }
 
@@ -348,4 +348,70 @@ body{
 	text-align:center;
 	font-weight:900;
 	font-size:12px;
+}
+
+/*-----------------------------WIN----------------------------------------------*/
+
+#modalWin{
+
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0, 0.0);	/*transpaency*/
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	display:none;
+}
+
+.modalViewWin{
+	width:940px;
+	height:310px;
+	border:white 1px solid;
+	border-radius:10px;
+	background-color:#140C71;
+	margin-left:585px;
+	margin-top:80px;
+	float:left;
+
+}
+
+#popUpTextWin{
+
+	color:white;
+	font-size:60px;
+	font-weight:900;
+	text-align:center;
+}
+
+.closesignWin{
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	cursor:pointer;
+	color:white;
+	font-size:60px;
+	font-weight:900;
+}
+
+#WinText{
+	float:left;
+	margin-top:80px;
+	margin-left:320px;
+	color:white;
+	font-size:60px;
+	font-weight:900;
+	text-align:center;
+}
+
+#modalLoss{
+
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0, 0.0);	/*transpaency*/
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	display:none;
 }

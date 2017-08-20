@@ -8,7 +8,6 @@
 	
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
 
@@ -99,6 +98,7 @@
 
 			</div>
 
+
 			<div id="advert3">	
 
 			<p>ADVERTISE HERE!!!</p><br /><p>ADVERTISE HERE!!!</p><br /><p>ADVERTISE HERE!!!</p><br /><p>ADVERTISE HERE!!!</p><br /><p>ADVERTISE HERE!!!</p><br /><p>ADVERTISE HERE!!!</p><br /><p>ADVERTISE HERE!!!</p>
@@ -170,10 +170,6 @@
 
 
 
-
-
-
-
 	</div><!-- gameBov div -->
 
 </div><!--CONAINER 2 DIV-->
@@ -182,12 +178,67 @@
 
 <!--___________________________________________________________________________________________________________-->
 
+
+<!-- The Button makes the pop up work, but doesn't work in function xyz(){}-->
+<button onclick="POPOPENWin()">Pop Up Tester</button>
+
+
+<!-- Test Button for losses <button onclick="POPOPEN_LOSS()">Pop Up Tester</button>-->
+
+
+
+
+<div id="modalWin">
+	
+	<div class="modalViewWin">
+			<div class="closesignWin" onclick="POPCLOSEWin()" >X</div><!-- Clicking X resets -->
+			<div id="WinText">
+				You Won!!!<br />
+				Play Again!!!
+			</div>
+
+
+				
+
+			
+
+	</div>
+	
+</div>
+
+<!--      Code for Loss pop up
+
+<div id="modalLOSS">
+	
+	<div class="modalViewWin">
+			<div class="closesignWin" onclick="POPCLOSEWin()" >X</div>
+			<div id="WinText">
+				You Lost!!!<br />
+				Try Again!!!
+			</div>
+
+	</div>
+	
+</div>
+
+
+
+
+-->
+
+
+
+
 <div id="crystalsBottom"><img src="assets/images/crystals.jpg"></div>
+
+
 
 <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
