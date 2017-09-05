@@ -25,10 +25,6 @@
 	purpleRock = Math.floor(Math.random() * 10) + 1 ;
 	metalRock = Math.floor(Math.random() * 10) + 1 ;
 	
-	//console.log(blueRock);
-	//console.log(greenRock);
-	//console.log(purpleRock);
-	//console.log(metalRock);
 	}
 
 
